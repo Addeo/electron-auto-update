@@ -1,13 +1,14 @@
 {
-  "name": "electron-updater-example",
+  "name": "convolo-dialer",
+  "author": "Convolo AI Communications AB",
   "version": "0.8.1",
   "main": "main.js",
-  "description": "electron-updater example project",
-  "author": "Matt Haggard",
+  "description": "Convolo Dialer",
+  "license": "ISC",
   "scripts": {
     "publish": "electron-builder -p always",
     "start": "electron .",
-    "deploy": "electron-builder build --mac --win --publish always"
+    "deploy": "electron-builder build --mac --publish always"
   },
   "devDependencies": {
     "electron": "^14.0.1",
@@ -26,7 +27,8 @@
         "repo": "electron-auto-update"
       }
     ],
-    "appId": "com.example.ElectronAutoUpdate",
+    "appId": "com.convolo.dialer",
+    "productName": "Convolo Dialer",
     "afterSign": "./build/notarize.js",
     "mac": {
       "icon": "icon.icns",
