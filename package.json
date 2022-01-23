@@ -1,7 +1,7 @@
 {
   "name": "convolo-dialer",
   "author": "Convolo AI Communications AB",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "main": "main.js",
   "description": "Convolo Dialer",
   "license": "ISC",

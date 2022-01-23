@@ -4,3 +4,4 @@ yarn.lock
 package-lock.json
 build/notarize.js
 build/
+dev-app-update.yml
